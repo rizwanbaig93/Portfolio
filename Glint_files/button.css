@@ -8,12 +8,12 @@ a.cbtn {
 }
 
 a.cbtn.cbnt1 {
-    background: #08d665;
+    background: var(--green);
     padding-right: 70px;
     position: relative;
     z-index: 2;
     border: 1px solid transparent;
-    color:#fff;
+    color: #fff;
 }
 
 a.cbtn.cbnt1 i {
@@ -25,24 +25,22 @@ a.cbtn.cbnt1 i {
     text-align: center;
     line-height: 30px;
     font-size: 20px;
-    background: #fff;
-    color: #08d665;
     border-radius: 4px;
     margin-top: -15px;
 }
 
 
 
-a.cbtn.cbnt1:hover{
-    border-color: #22cd6f;
+a.cbtn.cbnt1:hover {
+    border-color: var(--green);
     background: transparent;
-    color: #22cd6f;
+    color: var(--green);
     transition: all .3s;
 }
 
 
 a.cbtn.pricing-btn {
-    background: #08d665;
+    background: var(--green);
     padding-right: 70px;
     position: relative;
     z-index: 2;
@@ -63,4 +61,3 @@ a.cbtn.pricing-btn i {
     border-radius: 4px;
     margin-top: -15px;
 }
-
