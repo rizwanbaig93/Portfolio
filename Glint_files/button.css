@@ -29,8 +29,6 @@ a.cbtn.cbnt1 i {
     margin-top: -15px;
 }
 
-
-
 a.cbtn.cbnt1:hover {
     border-color: var(--green);
     background: transparent;

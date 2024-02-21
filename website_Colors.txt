@@ -1,3 +1,5 @@
 Portfolio Website Colors:
 #122234
 #009380
+#ffcd17
+Fill text color: #273340
