@@ -56,11 +56,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-nav">
             <a class="navbar-brand logo" href="#">
-              <img
-                src="Assets_files/Ejaz-Ali-Logo.png"
-                alt=""
-                class="img-fluid"
-              />
+              <img src="Assets_files/logo.png" alt="" class="img-fluid" />
             </a>
             <button
               class="navbar-toggler"
@@ -88,7 +84,10 @@
                   <a class="nav-link" href="#service">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ourdeals">Our Deals</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact_us">Contact Us</a>
@@ -100,15 +99,15 @@
                 <div class="icon-detail ms-2 nav-item">
                   <span>
                     <i class="fa-regular fa-envelope"></i>
-                    <a href="mailto:ejazali@gmail.com"
-                      >ejazali@gmail.com</a
+                    <a href="mailto:rizwanbaig097@gmail.com"
+                      >rizwanbaig097@gmail.com</a
                     ></span
                   >
                 </div>
                 <div class="icon-detail ms-2 nav-item">
                   <span>
                     <i class="fa-solid fa-mobile-screen"></i>
-                    <a href="tel:03491519297">03491519297</a></span
+                    <a href="tel:03491519297">+92-3365573511</a></span
                   >
                 </div>
               </div>
@@ -446,7 +445,7 @@
       <!--:::::SERVICE AREA END :::::::-->
 
       <!--:::::PROJECT AREA START :::::::-->
-      <div class="project-area section-padding">
+      <div class="project-area section-padding" id="projects">
         <div class="container">
           <div class="row">
             <div class="col-lg-5 align-self-center">
@@ -537,7 +536,7 @@
       <!--:::::PROJECT AREA END :::::::-->
 
       <!--:::::PRICING AREA START :::::::-->
-      <div class="pricing-area pricing-area1 section-padding" id="price">
+      <div class="pricing-area pricing-area1 section-padding" id="ourdeals">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 align-self-center">
@@ -740,12 +739,11 @@
                 <div class="map-detail">
                   <h5>Get in touch</h5>
                   <div class="contact-forms">
-                    <input type="text" placeholder="Name" name="" id="" />
-                    <input type="email" placeholder="Email" name="" id="" />
+                    <input type="text" placeholder="Name" id="name" />
+                    <input type="email" placeholder="Email" id="email" />
                     <textarea
-                      name=""
                       placeholder="Your Message"
-                      id=""
+                      id="message"
                       cols="30"
                       rows="4"
                     ></textarea>
@@ -760,7 +758,7 @@
                     >
                   </div>
                   <div class="buttons">
-                    <button type="submit" class="cta-01">
+                    <button onclick="sendEmail()" type="submit" class="cta-01">
                       <span class="icon d-flex">Submit</span>
                     </button>
                   </div>
@@ -780,7 +778,7 @@
                       </svg>
                     </div>
                     <div class="icon-detail ms-2">
-                      <span> Hamdani Town Islamabad</span>
+                      <span>Street#102, House#710, I-10/4 Islamabad</span>
                     </div>
                   </div>
                   <div class="social-icon d-flex align-items-center">
@@ -798,13 +796,12 @@
                         />
                       </svg>
                     </div>
-                    <div class="icon-detail ms-2">
-                      <span><a href="tel:03491519297">03491519297</a></span>
-                    </div>
-                  </div>
-                  <div class="social-icon d-flex align-items-center">
-                    <div class="icon">
+                    <div class="icon-detail">
+                      <span
+                        ><a href="tel:+923365573511">+92-3365573511</a></span
+                      >
                       <svg
+                        class="mx-4 svg-mr"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
@@ -816,16 +813,14 @@
                           fill="#EEB000"
                         />
                       </svg>
-                    </div>
-                    <div class="icon-detail ms-2">
                       <span>
-                        <a href="mailto:ejazalikharfaqi@gmail.com"
-                          >ejazalikharfaqi@gmail.com</a
+                        <a href="mailto:rizwanbaig097@gmail.com"
+                          >rizwanbaig097@gmail.com</a
                         ></span
                       >
                     </div>
                   </div>
-                  <div class="social-links mt-5">
+                  <div class="social-links">
                     <a
                       href="https://www.instagram.com/ejazaliwallipa/>"
                       target="_blank"
@@ -858,7 +853,7 @@
                       </svg>
                     </a>
                     <a
-                      href="https://www.facebook.com/ejazali.kharfaqi.3"
+                      href="https://www.facebook.com/rizwan.baig.587606/"
                       target="_blank"
                     >
                       <svg
@@ -876,7 +871,7 @@
                     </a>
                     <a
                       class="linkdin-font"
-                      href="https://www.linkedin.com/in/ejaz-ali-919182207/>"
+                      href="https://www.linkedin.com/in/rizwan-baig-8b852a219/>"
                       target="_blank"
                     >
                       <i class="fa-brands fa-linkedin"></i>
@@ -887,9 +882,9 @@
               <div class="col-md-7 p-0">
                 <div class="map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.8199906856094!2d73.09430837627923!3d33.661825838243665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb1a5ce35041%3A0x2cf674120129c4c6!2sSofia%20noorbakshia%20house%20street%20no%205!5e0!3m2!1sen!2s!4v1708592844226!5m2!1sen!2s"
-                    width="100%"
-                    height="100%"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13285.449842307064!2d73.01927865402823!3d33.647768984891655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95a70df09ddf%3A0x25ca660927f355af!2sI-10%20Markaz%20I%2010%20Markaz%20I-10%2C%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1708607200474!5m2!1sen!2s"
+                    width="800"
+                    height="600"
                     style="border: 0"
                     allowfullscreen=""
                     loading="lazy"
@@ -1028,6 +1023,74 @@
       });
     </script>
     <!-- Scroll event Js End-->
+
+    <script>
+      // server.js
+      const express = require("express");
+      const bodyParser = require("body-parser");
+      const nodemailer = require("nodemailer");
+
+      const app = express();
+      const port = 3000;
+
+      app.use(bodyParser.json());
+
+      app.post("/sendEmail", (req, res) => {
+        const { name, email, message } = req.body;
+
+        let transporter = nodemailer.createTransport({
+          service: "Gmail",
+          auth: {
+            user: "rizwanbaig097@gmail.com", // Your Gmail address
+            pass: "rizwanmughal12345", // Your Gmail password
+          },
+        });
+
+        let mailOptions = {
+          from: "rizwanbaig097@gmail.com", // Update with your Gmail address
+          to: "recipient-email@gmail.com", // Recipient's email address
+          subject: "New Message from Contact Form",
+          text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+        };
+
+        transporter.sendMail(mailOptions, (error, info) => {
+          if (error) {
+            console.error("Error sending email:", error);
+            res.status(500).send("Failed to send email");
+          } else {
+            console.log("Email sent:", info.response);
+            res.status(200).send("Email sent successfully");
+          }
+        });
+      });
+
+      app.listen(port, () => {
+        console.log(`Server is listening at http://localhost:${port}`);
+      });
+    </script>
+
+    <script>
+      function sendEmail() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        // Compose the email details
+        var subject = "Message from " + name;
+        var body = "Email: " + email + "\n\nMessage: " + message;
+
+        // Construct the mailto link
+        var mailtoLink =
+          "mailto:recipient@example.com" +
+          "?subject=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent(body);
+
+        // Open the default mail client with the pre-filled email
+        window.location.href = mailtoLink;
+      }
+    </script>
   </body>
   <!--body end-->
 </html>
