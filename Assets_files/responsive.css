@@ -261,7 +261,7 @@ Description:
     }
 
     .header-area.sticky {
-        top: 43rem;
+        top: 0;
         padding: 0;
     }
 
