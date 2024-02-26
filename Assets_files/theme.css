@@ -2554,6 +2554,11 @@ p.single-soicial-text {
   background-image: url(payment.png);
 }
 
+.easyteatout-card {
+  background-image: url(easyteatout.png) !important;
+}
+
+
 .owl-dots {
   position: absolute;
   left: 32rem;
@@ -2598,6 +2603,16 @@ p.single-soicial-text {
   color: #b5b5b5;
   font-weight: 700;
   text-transform: lowercase !important;
+}
+
+
+.card:hover .content-cards {
+  color: var(--yellow);
+  font-size: 24px;
+  letter-spacing: 1px;
+  left: 5rem !important;
+  bottom: 13rem !important;
+  font-weight: 800 !important;
 }
 
 /* .overlay {
@@ -8415,7 +8430,7 @@ p.single-soicial-text {
 }
 
 .card:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.7;
   position: absolute;
   top: 0;
   bottom: 0;
