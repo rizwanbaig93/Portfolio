@@ -266,7 +266,7 @@ Description:
     }
 
     .content-card {
-        margin-top: 9rem;
+        top: 9rem;
         padding: 25px 20px;
         height: 10rem;
         width: 18rem;
@@ -298,6 +298,7 @@ Description:
     }
 
     .item:nth-child(3) {
+        top: 25rem;
         left: 67% !important;
     }
 
