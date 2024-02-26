@@ -313,38 +313,38 @@
         <!-- Start Technical Skills Section -->
         <div class="skill__circles">
           <div class="container">
-            <div class="row">
-              <div class="colsm6 col-lg-2 text-center">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+              <div class=" text-center">
                 <div class="circle1 circle" id="circle1">
                   <img src="./skills images/html.png" alt="" srcset="" />
                   <span>Html</span>
                 </div>
               </div>
-              <div class="colsm6 col-lg-2 text-center">
+              <div class=" text-center">
                 <div class="circle2 circle" id="circle2">
                   <img src="./skills images/css.png" alt="" srcset="" />
                   <span>Css</span>
                 </div>
               </div>
-              <div class="colsm6 col-lg-2 text-center">
+              <div class=" text-center">
                 <div class="circle3 circle" id="circle3">
                   <img src="./skills images/bootstrap.png" alt="" srcset="" />
                   <span>Bootstrap</span>
                 </div>
               </div>
-              <div class="colsm6 col-lg-2 text-center">
+              <div class=" text-center">
                 <div class="circle4 circle" id="circle4">
                   <img src="./skills images/react.png" alt="" srcset="" />
                   <span>React</span>
                 </div>
               </div>
-              <div class="colsm6 col-lg-2 text-center">
+              <div class=" text-center">
                 <div class="circle4 circle" id="circle4">
                   <img src="./skills images/figma.png" alt="" srcset="" />
                   <span>Figma</span>
                 </div>
               </div>
-              <div class="colsm6 col-lg-2 text-center">
+              <div class=" text-center">
                 <div class="circle4 circle" id="circle4">
                   <img src="./skills images/photoshop.png" alt="" srcset="" />
                   <span>photoshop</span>
@@ -966,9 +966,18 @@
     <script>
       $(".slider").owlCarousel({
         loop: true,
-        // autoplay: true,
-        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplay: true,
+        autoplayTimeout: 2000, // 2000ms = 2s
         autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1 // Display 1 item on screens less than 600px
+          },
+          600: {
+            items: 3 // Display 3 items on screens between 600px and 992px
+          }
+          // You can add more breakpoints if needed
+        }
       });
     </script>
     <script

@@ -330,6 +330,109 @@ Description:
     .nav-item a {
         font-size: 7px;
     }
+
+    .heading h2 {
+        font-size: 23px;
+        padding-top: 2rem;
+        line-height: 30px;
+    }
+
+    .heading p {
+        font-weight: 400;
+        margin: 16px 0;
+    }
+
+    .section-padding {
+        padding: 25px 0;
+    }
+
+    .info-content {
+        padding-left: 15px;
+    }
+
+    .info-content p {
+        font-size: 15px;
+    }
+
+    .heading small {
+        position: relative;
+        font-size: 16px;
+        top: 2rem;
+    }
+
+    .heading strong.filltext {
+        font-size: 40px;
+    }
+
+    .skill-box {
+        margin: 0.3rem 0;
+        height: 235px;
+    }
+
+    .skill-box p {
+        font-size: 14px;
+    }
+
+    .circle {
+        width: 120px;
+    }
+
+    .circle span {
+        font-size: 14px;
+    }
+
+    .space-60 {
+        height: 35px;
+    }
+
+    .space-100 {
+        height: 30px;
+    }
+
+    .service-text p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .single-service {
+        padding: 15px 15px;
+        margin: 0.3rem 0;
+    }
+
+    .service-card {
+        height: 260px;
+    }
+
+    .service-area .service-text {
+        margin: 12px 0 0px 0px;
+    }
+
+    .service-text h3 {
+        font-size: 24px;
+    }
+
+    .service-text h5 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .u-list ul li i {
+        margin-top: -17px;
+    }
+
+    .u-list ul li {
+        margin-right: 37px;
+        font-size: 15px;
+        padding: 2px 0px;
+    }
+
+    .service-package {
+        height: 400px !important;
+    }
+
+    .owl-item {
+        height: 100%;
+    }
 }
 
 /*=========================================================================
