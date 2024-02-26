@@ -43,126 +43,7 @@ Description:
                      tab
 ================+/+/+/+/+/+/+/+/+/=================
 */
-@media only screen and (max-width: 991px) {
-    .skill-area.primery-skill .row:last-child>div {
-        margin-bottom: 30px;
-    }
 
-    .skill-area.primery-skill .row:last-child>div:last-child {
-        margin-bottom: 0
-    }
-
-    .service-area .row>div,
-    .pricing-area .row>div {
-        margin-bottom: 40px;
-    }
-
-    .about-area .heading {
-        margin-top: 40px
-    }
-
-    .service-area .row>div:last-child,
-    .pricing-area .row>div:last-child {
-        margin-bottom: 0;
-    }
-
-    .header-banner-area {
-        display: none;
-        height: 0
-    }
-
-    .header-area.header-main {
-        top: 0
-    }
-
-    .welcome-area.inner {
-        padding: 100px 0 50px 0;
-    }
-
-    .single-blog-section-description h2 {
-        font-size: 18px;
-        line-height: 30px;
-    }
-
-    .single-blog-section-author ul {
-        margin: 20px 0;
-    }
-
-    .single-blog-section-author li {
-        padding: 5px 0;
-    }
-
-    .related_tags .row>div:last-child {
-        margin-top: 15px;
-    }
-
-    .post_prev_next .row>div {
-        text-align: left !important;
-        margin: 10px 0;
-    }
-
-    .single_comment {
-        position: relative;
-        z-index: 2;
-        padding: 0;
-    }
-
-    .comment_img {
-        width: 80px;
-        height: 80px;
-        text-align: center;
-        position: relative;
-        top: 100%;
-        left: 0;
-        margin-top: 0;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-bottom: 30px;
-    }
-
-    .single_comment h4 {
-        font-size: 16px;
-    }
-
-    .comment_form {
-        margin-bottom: 50px;
-    }
-
-    .portfolio-filter li {
-        display: block;
-        text-align: center;
-    }
-
-    .contact-page-area .row>div,
-    .map {
-        margin-bottom: 40px;
-    }
-
-    .contact-page-area .row>div:last-child {
-        margin-bottom: 0;
-    }
-
-    .cpagination {
-        margin-bottom: 50px;
-    }
-
-    .info-content {
-        margin-top: 30px;
-    }
-
-    .about-area .primery-heading {
-        margin-top: 40px;
-    }
-
-    .wlc-author-1 {
-        display: none;
-    }
-
-    .skill-box {
-        margin-bottom: 30px;
-    }
-
-}
 
 /*tablet layout:768px*/
 @media only screen and(min-width:768px) and (max-width:991px) {}
@@ -362,6 +243,28 @@ Description:
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .navbar-nav {
+        display: contents !important;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .navbar {
+        height: 146px;
+        padding: 0;
+    }
+
+    .header-area.sticky {
+        top: 45rem;
+        padding: 0;
+    }
+
     .content-card {
         margin-top: 9rem;
         padding: 25px 20px;
@@ -375,6 +278,10 @@ Description:
         & .title {
             font-size: 1.2rem;
         }
+    }
+
+    .go-top {
+        display: none !important;
     }
 
     main {
@@ -398,6 +305,30 @@ Description:
         height: 70vh !important;
     }
 
+    .social-site {
+        display: none;
+    }
+
+    .container-nav {
+        width: 95%;
+        margin: 0 auto;
+        display: inline;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    .container-nav {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .nav-item a {
+        font-size: 7px;
+    }
 }
 
 /*=========================================================================

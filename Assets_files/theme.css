@@ -29,6 +29,13 @@ body {
   background: var(--lightblue);
 }
 
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
 .header-banner-area .owl-nav>div {
   height: 20px;
   width: 30px;
@@ -3059,7 +3066,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: var(--darkblue);
+  background: #344353 !important;
   transition: all 1s;
 }
 
@@ -8760,6 +8767,7 @@ p.single-soicial-text {
 .main-bg .social-links a:hover svg path {
   fill: #eeb000 !important;
 }
+
 
 @media (max-width: 991.98px) {
   .main-bg h2 {
