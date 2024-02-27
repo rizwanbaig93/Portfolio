@@ -2052,20 +2052,18 @@ span.single-social-icon i {
 ==========================
 */
 .footer-area1 {
-  background-image: url(../img/bg/footer-bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: var(--darkblue);
 }
 
 .footer-menu li a {
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
   padding: 0 9px;
 }
 
 .footer-menu li a:hover {
-  color: var(--lightblue);
+  color: var(--green) !important;
 }
 
 .footer-menu li {
@@ -2877,6 +2875,13 @@ p.single-soicial-text {
   fill: #eeb000 !important;
 }
 
+.social-links {
+  padding-top: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 @media (max-width: 991.98px) {
   .main-bg h2 {
     font-size: 3rem;
@@ -2946,10 +2951,10 @@ p.single-soicial-text {
   }
 
   .main-bg h2 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
   }
 
   .main-bg .form-body {
@@ -2961,7 +2966,7 @@ p.single-soicial-text {
   }
 
   .main-bg .map-detail h5 {
-    font-size: 2rem;
+    font-size: 1.5rem !important;
   }
 
   .main-bg .contact-forms {
@@ -3129,6 +3134,7 @@ body {
 }
 
 .copy-right a {
+  margin: 0 3px;
   color: var(--green) !important;
 }
 
@@ -4407,7 +4413,7 @@ main {
 
 .item-img-three {
   background-image: linear-gradient(320deg, var(--lightblue), transparent),
-    url(./sliderimg4.jpg);
+    url(./sliderimg3.jpg);
 }
 
 .item-img-four {
@@ -5640,7 +5646,7 @@ p.single-soicial-text {
   background-repeat: no-repeat;
   height: 100%;
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6037,7 +6043,8 @@ body {
 }
 
 .nav-item a {
-  color: var(--white) !important;
+  text-decoration: none;
+  color: var(--white);
   margin: 0 10px;
   position: relative;
 }
@@ -8900,4 +8907,8 @@ i {
 
 .svg-mr {
   margin-right: 0px !important;
+}
+
+.svg-marginleft svg {
+  margin: 0 !important;
 }

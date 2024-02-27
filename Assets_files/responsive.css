@@ -268,14 +268,14 @@ Description:
         top: 0;
         padding: 0;
         border: none;
-        background: #009783bf !important;
-        height: 80px;
+        background: #0e302ce3 !important;
+        height: 75px;
     }
 
     .content-card {
         top: 13rem;
-        padding: 25px 20px;
-        height: 10rem;
+        padding: 10px 10px;
+        height: 8rem;
         width: 18rem;
     }
 
@@ -305,7 +305,7 @@ Description:
     }
 
     .item:nth-child(3) {
-        top: 25rem;
+        top: 22rem;
         left: 67% !important;
     }
 
@@ -318,7 +318,7 @@ Description:
     }
 
     .container-nav {
-        width: 100%;
+        width: 95% !important;
         margin: 0 auto;
         display: inline;
     }
@@ -362,6 +362,7 @@ Description:
 
     .section-padding {
         padding: 0px 0;
+        background-color: var(--darkblue);
     }
 
     a.cbtn {
@@ -489,6 +490,79 @@ Description:
     .card:hover .content-cards {
         font-size: 20px;
         font-weight: 700;
+    }
+
+    .footer-menu ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-menu li a {
+        color: #fff;
+        font-size: 12px;
+        text-transform: capitalize;
+        padding: 0 1px;
+        text-decoration: none;
+    }
+
+    .copy-right a {
+        margin: 0 2px;
+    }
+
+    .svg-marginleft svg {
+        margin: 0 !important;
+    }
+
+    .main-bg .social-icon {
+        margin: 7px 0;
+    }
+
+    .main-bg .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons button {
+        font-size: 1rem;
+        padding: 5px 20px;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    /* .main-bg .social-icon .icon-detail a{
+        line-height: 1.2;
+        font-size: 12px;
+    } */
+    .custom-fontsize {
+        font-size: 13px !important;
+    }
+
+    .custom-fontsize a {
+        font-size: 13px !important;
+    }
+
+    .social-icon svg {
+        width: 20px;
+    }
+
+    .main-bg .contact-forms input,
+    .main-bg .contact-forms textarea {
+        padding: 10px 3px;
+        margin: 5px 0;
+    }
+
+    .main-bg {
+        padding-bottom: 25px;
+    }
+
+    .space-40 {
+        height: 30px;
     }
 }
 
