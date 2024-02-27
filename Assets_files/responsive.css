@@ -187,6 +187,10 @@ Description:
         padding: 20px
     }
 
+    .banner {
+        margin: 0;
+    }
+
     .cta-form a.subscribe-btn {
         width: 75%;
         float: left;
@@ -252,21 +256,24 @@ Description:
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin: 0;
         padding: 0 !important;
     }
 
     .navbar {
-        height: 146px;
         padding: 0;
     }
 
     .header-area.sticky {
         top: 0;
         padding: 0;
+        border: none;
+        background: #009783bf !important;
+        height: 80px;
     }
 
     .content-card {
-        top: 9rem;
+        top: 13rem;
         padding: 25px 20px;
         height: 10rem;
         width: 18rem;
@@ -285,7 +292,7 @@ Description:
     }
 
     main {
-        overflow-x: hidden;
+        overflow-x: clip;
     }
 
     .item:nth-child(4) {
@@ -303,7 +310,7 @@ Description:
     }
 
     .banner-slider {
-        height: 70vh !important;
+        height: 60vh !important;
     }
 
     .social-site {
@@ -311,9 +318,13 @@ Description:
     }
 
     .container-nav {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
         display: inline;
+    }
+
+    .logo img {
+        height: 40px;
     }
 
     .navbar-toggler {
@@ -321,29 +332,43 @@ Description:
     }
 
     .container-nav {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         overflow-x: auto;
     }
 
     .nav-item a {
-        font-size: 7px;
+        font-size: 8.2px;
+        font-weight: 500;
+        margin: 0;
     }
 
     .heading h2 {
         font-size: 23px;
-        padding-top: 2rem;
+        padding-top: 0.7rem;
         line-height: 30px;
     }
 
+    .navbar-expand-lg {
+        width: 95%;
+        margin: 0px auto;
+    }
+
     .heading p {
-        font-weight: 400;
-        margin: 16px 0;
+        font-size: 13px;
+        margin: 5px 0 12px 0;
     }
 
     .section-padding {
-        padding: 25px 0;
+        padding: 0px 0;
+    }
+
+    a.cbtn {
+        margin-bottom: 0.8rem;
+        margin-left: 3.5rem;
+        padding: 10px 10px;
+        text-decoration: none;
     }
 
     .info-content {
@@ -351,17 +376,39 @@ Description:
     }
 
     .info-content p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .heading small {
-        position: relative;
+        position: absolute;
         font-size: 16px;
-        top: 2rem;
+        top: 3rem;
     }
 
     .heading strong.filltext {
         font-size: 40px;
+        position: relative;
+        left: 0;
+        top: 1rem;
+    }
+
+    .aboutus-head h2 {
+        padding-top: 0.2rem !important;
+    }
+
+    .filltext-aboutus {
+        top: 1.5rem !important;
+        font-size: 40px;
+        position: relative;
+        left: 0;
+    }
+
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
+
+    .aboutus-h2 h2 {
+        padding-top: 0.2rem !important;
     }
 
     .skill-box {
@@ -382,11 +429,11 @@ Description:
     }
 
     .space-60 {
-        height: 35px;
+        height: 20px;
     }
 
     .space-100 {
-        height: 30px;
+        height: 20px;
     }
 
     .service-text p {
@@ -432,6 +479,16 @@ Description:
 
     .owl-item {
         height: 100%;
+    }
+
+    .card {
+        height: 48vh !important;
+        border: none;
+    }
+
+    .card:hover .content-cards {
+        font-size: 20px;
+        font-weight: 700;
     }
 }
 
