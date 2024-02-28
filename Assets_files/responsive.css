@@ -345,9 +345,11 @@ Description:
     }
 
     .heading h2 {
-        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        font-size: 18px;
         padding-top: 0.7rem;
-        line-height: 30px;
+        line-height: 25px;
     }
 
     .navbar-expand-lg {
@@ -377,7 +379,7 @@ Description:
     }
 
     .info-content p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .heading small {
@@ -393,12 +395,9 @@ Description:
         top: 1rem;
     }
 
-    .aboutus-head h2 {
-        padding-top: 0.2rem !important;
-    }
 
     .filltext-aboutus {
-        top: 1.7rem !important;
+        top: 0.8rem !important;
         font-size: 40px;
         position: relative;
         left: 0;
