@@ -2113,7 +2113,7 @@ span.single-social-icon i {
   -webkit-text-stroke: 1px #273340;
   position: relative;
   left: 0;
-  top: 0.2rem;
+  top: 0.2rem !important;
   z-index: -1;
 }
 

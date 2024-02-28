@@ -416,10 +416,6 @@ Description:
         height: 235px;
     }
 
-    .skill-box p {
-        font-size: 14px;
-    }
-
     .circle {
         width: 70px;
     }
@@ -588,7 +584,7 @@ Description:
 
     .skill-box p {
         margin-bottom: 0;
-        font-size: 14px !important;
+        font-size: 13px !important;
         text-transform: capitalize;
         color: #fff;
         font-weight: 400;
