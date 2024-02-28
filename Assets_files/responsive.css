@@ -488,7 +488,7 @@ Description:
         height: 100%;
     } */
     .owl-item {
-        height: 64vh;
+        height: 68vh;
     }
 
     /* .card {
@@ -496,7 +496,7 @@ Description:
         border: none;
     } */
     .card {
-        height: 63vh !important;
+        height: 67vh !important;
         border: none;
     }
 
