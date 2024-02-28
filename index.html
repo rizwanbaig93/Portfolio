@@ -18,6 +18,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!--:::::AOS Animation Css Link :::::::-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--:::::Font Montsert :::::::-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -198,15 +202,19 @@
       <!--:::::ABOUT AREA START :::::::-->
       <div class="about-area about-area1 section-padding" id="about">
         <div class="container">
-          <div class="row reverse-row">
-            <div class="col-lg-5 align-self-center">
+          <div class="row reverse-row" >
+            <div class="col-lg-5 align-self-center" data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
               <div class="about-shape">
                 <div class="about-img-section about-img-section1 text-center">
                   <img src="aboutimg2.jpg" alt="" srcset="" />
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 offset-lg-1 align-self-center">
+            <div class="col-lg-6 offset-lg-1 align-self-center" data-aos="fade-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
               <div class="heading white aboutus-head">
                 <strong class="filltext filltext-aboutus">Discover</strong>
                 <small>About Me</small>
@@ -261,7 +269,7 @@
           </div>
           <div class="space-60"></div>
           <div class="row">
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
               <div class="skill-box">
                 <small>2022 - Present</small><br />
                 <small>( Frontend Developer )</small>
@@ -273,7 +281,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
               <div class="skill-box">
                 <small>August 2021 - March 2022</small><br />
                 <small>( Graphic Designer )</small>
@@ -285,7 +293,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="zoom-in">
               <div class="skill-box">
                 <small>April 2019 - June 2020 </small><br />
                 <small>( Internship Ui/Ux designer )</small>
@@ -315,37 +323,37 @@
         <div class="skill__circles">
           <div class="container">
             <div class="d-flex justify-content-between align-items-center flex-wrap">
-              <div class=" text-center">
+              <div class=" text-center" data-aos="zoom-out">
                 <div class="circle1 circle" id="circle1">
                   <img src="./skills images/html.png" alt="" srcset="" />
                   <span>Html</span>
                 </div>
               </div>
-              <div class=" text-center">
+              <div class=" text-center" data-aos="zoom-in">
                 <div class="circle2 circle" id="circle2">
                   <img src="./skills images/css.png" alt="" srcset="" />
                   <span>Css</span>
                 </div>
               </div>
-              <div class=" text-center">
+              <div class=" text-center" data-aos="zoom-out">
                 <div class="circle3 circle" id="circle3">
                   <img src="./skills images/bootstrap.png" alt="" srcset="" />
                   <span>Bootstrap</span>
                 </div>
               </div>
-              <div class=" text-center">
+              <div class=" text-center" data-aos="zoom-in">
                 <div class="circle4 circle" id="circle4">
                   <img src="./skills images/react.png" alt="" srcset="" />
                   <span>React</span>
                 </div>
               </div>
-              <div class=" text-center">
+              <div class=" text-center" data-aos="zoom-out">
                 <div class="circle4 circle" id="circle4">
                   <img src="./skills images/figma.png" alt="" srcset="" />
                   <span>Figma</span>
                 </div>
               </div>
-              <div class=" text-center">
+              <div class=" text-center" data-aos="zoom-in">
                 <div class="circle4 circle" id="circle4">
                   <img src="./skills images/photoshop.png" alt="" srcset="" />
                   <span>photoshop</span>
@@ -379,7 +387,7 @@
           </div>
           <div class="space-60"></div>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
               <div class="single-service service-card">
                 <div class="service-icon">
                   <img src="./Assets_files/service1.svg" alt="" />
@@ -403,7 +411,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="zoom-in">
               <div class="single-service service-card">
                 <div class="service-icon">
                   <img src="./Assets_files/service2.svg" alt="" />
@@ -427,7 +435,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-right">
               <div class="single-service service-card">
                 <div class="service-icon">
                   <img src="./Assets_files/service3.svg" alt="" />
@@ -479,7 +487,7 @@
           <div class="space-60"></div>
           <div class="row">
             <div class="slider owl-carousel">
-              <a
+              <a data-aos="zoom-in-down"
                 class="card_a"
                 href="https://taxivan.azurewebsites.net/"
                 target="_blank"
@@ -492,7 +500,7 @@
                   </div>
                 </div>
               </a>
-              <a
+              <a data-aos="flip-left"
                 class="card_a"
                 href="https://www.easyeatout.com"
                 target="_blank"
@@ -505,7 +513,7 @@
                   </div>
                 </div>
               </a>
-              <a class="card_a" href="https://grait.app/" target="_blank">
+              <a data-aos="zoom-in-up" class="card_a" href="https://grait.app/" target="_blank">
                 <div class="card grit-card">
                   <div class="overlay"></div>
                   <div class="content-cards">
@@ -582,7 +590,7 @@
           </div>
           <div class="space-60"></div>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-up">
               <div class="single-service service-package">
                 <div class="service-icon">
                   <img src="./Assets_files/service1.svg" alt="" />
@@ -639,7 +647,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="zoom-out">
               <div class="single-service service-package Silver-card">
                 <div class="service-icon">
                   <img src="./Assets_files/service1.svg" alt="" />
@@ -687,7 +695,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-down">
               <div class="single-service service-package">
                 <div class="service-icon">
                   <img src="./Assets_files/service2.svg" alt="" />
@@ -758,7 +766,7 @@
                   Contact <span>Us</span>
                 </h2>
             <div class="row form-body">
-              <div class="col-md-5 p-0 padding-auto-mobile">
+              <div class="col-md-5 p-0 padding-auto-mobile" data-aos="fade-right">
                 <div class="map-detail">
                   <h5>Get in touch</h5>
                   <div class="contact-forms">
@@ -849,7 +857,7 @@
                   </div>
                     </div>
                   </div>
-                  <div class="col-md-7 p-0">
+                  <div class="col-md-7 p-0" data-aos="fade-left">
                     <div class="map">
                       <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13285.449842307064!2d73.01927865402823!3d33.647768984891655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95a70df09ddf%3A0x25ca660927f355af!2sI-10%20Markaz%20I%2010%20Markaz%20I-10%2C%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1708607200474!5m2!1sen!2s"
@@ -984,6 +992,7 @@
     </div>
 
     <!--:::::sitea area end :::::::-->
+    
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
@@ -1152,6 +1161,23 @@
       }
     </script>
     <!-- Contact US Form JS End-->
+
+    <!--:::::AOS Animation Js Link :::::::-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(document).ready(function(){
+        setTimeout(function() {
+          $('[data-aos]').each(function() {
+            $(this).attr('ease-out-cubic');
+            $(this).attr('data-aos-duration', '2000');
+          });
+          AOS.init();
+        }, ); // 1000ms = 1s delay
+      });
+    </script>
+    </script>
+
+    
   </body>
   <!--body end-->
 </html>

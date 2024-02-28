@@ -3,6 +3,10 @@
 	BANNER AREA CSSS
 ==========================
 */
+.active {
+  color: red !important;
+}
+
 :root {
   --green: #009380;
   --darkblue: #122234;
@@ -8625,8 +8629,8 @@ p.single-soicial-text {
 
 .main-bg .form-body iframe {
   height: 100%;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px
 }
 
 .main-bg .map-detail {
@@ -8897,4 +8901,11 @@ i {
 
 .svg-marginleft svg {
   margin: 0 !important;
+}
+
+.main-bg .map-detail {
+  background-color: var(--lightblue);
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
