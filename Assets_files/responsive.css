@@ -398,7 +398,7 @@ Description:
     }
 
     .filltext-aboutus {
-        top: 1.5rem !important;
+        top: 1.7rem !important;
         font-size: 40px;
         position: relative;
         left: 0;
@@ -563,6 +563,10 @@ Description:
 
     .space-40 {
         height: 30px;
+    }
+
+    .service-icon {
+        width: 50px;
     }
 }
 
