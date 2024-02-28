@@ -413,7 +413,7 @@ Description:
 
     .skill-box {
         margin: 0.3rem 0;
-        height: 235px;
+        height: 220px;
     }
 
     .circle {
@@ -481,14 +481,14 @@ Description:
     }
 
     .service-package {
-        height: 365px !important;
+        height: 340px !important;
     }
 
     /* .owl-item {
         height: 100%;
     } */
     .owl-item {
-        height: 68vh;
+        height: 65vh;
     }
 
     /* .card {
@@ -496,7 +496,7 @@ Description:
         border: none;
     } */
     .card {
-        height: 67vh !important;
+        height: 64vh !important;
         border: none;
     }
 
@@ -504,7 +504,7 @@ Description:
         color: white !important;
         position: absolute;
         left: 4.5rem;
-        top: 25rem;
+        top: 25.2rem;
         z-index: 99999;
     }
 
