@@ -508,14 +508,14 @@ Description:
 
     .footer-menu li a {
         color: #fff;
-        font-size: 12px;
+        font-size: 11px;
         text-transform: capitalize;
         padding: 0 1px;
         text-decoration: none;
     }
 
     .copy-right {
-        font-size: 10px;
+        font-size: 8px;
         color: white;
     }
 
