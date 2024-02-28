@@ -481,7 +481,7 @@ Description:
     }
 
     .service-package {
-        height: 400px !important;
+        height: 365px !important;
     }
 
     /* .owl-item {
@@ -514,6 +514,11 @@ Description:
         text-decoration: none;
     }
 
+    .copy-right {
+        font-size: 10px;
+        color: white;
+    }
+
     .copy-right a {
         margin: 0 2px;
     }
@@ -542,6 +547,11 @@ Description:
         justify-content: space-around;
         align-items: center;
         padding-top: 5px;
+    }
+
+    .icon-detail a {
+        font-size: 14px !important;
+        margin: 0 2px;
     }
 
     /* .main-bg .social-icon .icon-detail a{
