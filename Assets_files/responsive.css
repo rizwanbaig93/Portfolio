@@ -421,11 +421,21 @@ Description:
     }
 
     .circle {
-        width: 120px;
+        width: 70px;
+    }
+
+    .circle {
+        margin: 6px 6px 0px;
     }
 
     .circle span {
-        font-size: 14px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .circle img {
+        max-width: 75%;
+        height: auto;
     }
 
     .space-60 {
@@ -447,7 +457,7 @@ Description:
     }
 
     .service-card {
-        height: 260px;
+        height: 220px;
     }
 
     .service-area .service-text {
@@ -566,6 +576,30 @@ Description:
 
     .service-icon {
         width: 50px;
+    }
+
+    .skill-box h5 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #ffcd17;
+        margin: 5px 0;
+    }
+
+    .skill-box p {
+        margin-bottom: 0;
+        font-size: 14px !important;
+        text-transform: capitalize;
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .service-text h4 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: var(--green);
+        margin-bottom: 5px;
     }
 }
 
