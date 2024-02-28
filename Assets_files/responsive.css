@@ -425,8 +425,8 @@ Description:
     }
 
     .circle span {
-        font-size: 12px;
-        letter-spacing: 1px;
+        font-size: 11px;
+        letter-spacing: 0px;
     }
 
     .circle img {
@@ -491,9 +491,30 @@ Description:
         height: 68vh;
     }
 
-    .card {
+    /* .card {
         height: 67vh !important;
         border: none;
+    } */
+    .card {
+        height: 46vh !important;
+        border: none;
+    }
+
+    .owl-dots {
+        color: white !important;
+        position: absolute;
+        left: 4.5rem;
+        top: 25rem;
+        z-index: 99999;
+    }
+
+    .owl-dots button {
+        height: 8px;
+        margin: 8px;
+        border: none;
+        width: 15px;
+        border-radius: 20px;
+        background-color: #ffffff;
     }
 
     .card:hover .content-cards {
@@ -550,7 +571,7 @@ Description:
     }
 
     .icon-detail a {
-        font-size: 14px !important;
+        font-size: 12px !important;
         margin: 0 2px;
     }
 
