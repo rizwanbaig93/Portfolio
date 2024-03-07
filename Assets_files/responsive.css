@@ -500,7 +500,7 @@ Description:
         border: none;
     }
 
-    .owl-dots {
+    /* .owl-dots {
         color: white !important;
         position: absolute;
         left: 4.5rem;
@@ -515,7 +515,7 @@ Description:
         width: 15px;
         border-radius: 20px;
         background-color: #ffffff;
-    }
+    } */
 
     .card:hover .content-cards {
         font-size: 20px;
