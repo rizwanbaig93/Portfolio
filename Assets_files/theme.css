@@ -3728,7 +3728,7 @@ a.about-video {
 }
 
 .skill-box {
-  height: 245px;
+  height: 330px;
   padding: 25px;
   background: #009380;
   box-shadow: 0px 65px 64.5px rgba(0, 0, 0, 0.39);
@@ -6062,7 +6062,7 @@ body {
 }
 
 .icon-detail {
-  margin: 0 10px;
+  margin: 0 2px;
 }
 
 .icon-detail a {
