@@ -3728,7 +3728,7 @@ a.about-video {
 }
 
 .skill-box {
-  height: 330px;
+  height: 370px;
   padding: 25px;
   background: #009380;
   box-shadow: 0px 65px 64.5px rgba(0, 0, 0, 0.39);
@@ -3814,6 +3814,10 @@ a.about-video {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.P-Strong > strong{
+  color: #ffcd17d1;
 }
 
 .primery-skill .skill-box p {
