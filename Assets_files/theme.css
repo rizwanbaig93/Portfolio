@@ -6731,6 +6731,10 @@ a.about-video {
   z-index: 2;
 }
 
+.skill_margin_top {
+  margin-top: 24px !important;
+}
+
 .primery-skill .skill-box h5 {
   font-size: 20px;
   text-transform: uppercase;
